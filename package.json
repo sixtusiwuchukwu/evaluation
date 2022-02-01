@@ -5,6 +5,7 @@
   "author": "Reginald Ugochukwu",
   "repository": "https://github.com/Reginaldh/typescriptEvalution.git",
   "license": "MIT",
+  "engines": { "node": "17.2.0" },
   "keywords": [
     "typescript",
     "boilerplate",
