@@ -1,9 +1,9 @@
 require("dotenv").config();
-import cors from "./src/tools/cors";
+import cors from "./tools/cors";
 import express, { Application } from "express";
-import UserResolver from "./src/service/userServices/resolver";
-import LiveScoreResolver from "./src/service/liveScoreServices/resolver";
-import Db from "./src/db";
+import UserResolver from "./service/userServices/resolver";
+import LiveScoreResolver from "./service/liveScoreServices/resolver";
+import Db from "./db";
 import cookieParser from 'cookie-parser'
 
 const app: Application = express();
