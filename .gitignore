@@ -11,4 +11,5 @@
 coverage
 *.log
 package-lock.json
+.env
 
