@@ -3,7 +3,7 @@
   "version": "0.4.2",
   "description": "Boilerplate for TypeScript projects (Node.js and browser modules)",
   "author": "Reginald Ugochukwu",
-  "repository": "",
+  "repository": "https://github.com/Reginaldh/typescriptEvalution.git",
   "license": "MIT",
   "keywords": [
     "typescript",
