@@ -5,7 +5,7 @@
   "author": "Reginald Ugochukwu",
   "repository": "https://github.com/Reginaldh/typescriptEvalution.git",
   "license": "MIT",
-  //"engines": { "node": "17.x","npm":"8.x"},
+  "engines": { "node": "17.x","npm":"8.x"},
   "keywords": [
     "typescript",
     "boilerplate",
@@ -23,7 +23,8 @@
     "watch-node": "nodemon dist/index.js",
     "watch-ts": "tsc -w",
     "deploy": "git add . && git commit -m Heroku && git push heroku main",
-    "dev": "nodemon index.ts"
+    "dev": "nodemon index.ts",
+    "build":"tsc"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
